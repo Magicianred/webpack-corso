@@ -4,7 +4,8 @@
   "description": "Example project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "serve": "webpack serve"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +15,7 @@
     "babel-loader": "^8.1.0",
     "css-loader": "^5.0.0",
     "file-loader": "^6.1.1",
+    "html-webpack-plugin": "^5.0.0-alpha.6",
     "image-webpack-loader": "^7.0.1",
     "node-sass": "^4.14.1",
     "sass-loader": "^10.0.3",
